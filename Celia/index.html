@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 4 Project</title>
+    <link rel="stylesheet" href="./src/css/layout.css">
+</head>
+<body>
+    <nav>
+        <ul class="navbar-menu">
+            <li class="logo-img">
+                <img src="./src/img/animated dnut.gif" alt="Donut">
+            </li>
+            <li class="navbar-item" id="company-name">
+                Fred the Baker Baking Company
+            </li>
+            <li class="navbar-item">
+                <a id="item1" href="#">About The Company</a>
+            </li>
+            <li class="navbar-item">
+                <a id="item2" target="_blank" href="https://orteil.dashnet.org/cookieclicker/">Inspiration</a>
+            </li>
+          
+        </ul>
+    </nav>
+
+    <main class="grid-container1">
+       <div class="grid-item1" id="auto-clicker">
+           <h3>AutoClickers purchased:<span id="auto-count"></span></h3>
+           <h4>Next AutoClicker cost:<span id="auto-cost"> 100 donuts</span></h4>
+           <button class="button" id="auto-button">BUY</button>
+       </div>
+       <div class="grid-item1" id="donut-multi">
+           <h3>DonutMultipliers purchased:<span id="multiplier-count"></span></h3>
+           <h4>Next DonutMultiplier cost:<span id="multiplier-cost"> 10 donuts</span></h4>
+           <button class="button" id="multi-button">BUY</button>
+       </div>
+    </main>
+
+    <main class="grid-container2">
+        <div class="grid-item2" id="donut-maker">
+            <h3>Donuts made:<span id="donut-count"></span></h3>
+            <button class="button" id="donut-button"> <img src="./src/img/button.jfif" alt="Donut"></button>
+        </div>
+    </main>
+
+    <main class="grid-container3">
+        <div class="grid-item3" id="lets-play">
+            <h3>Lets Play</h3>
+
+            <button class="button" id="reset-button">GAME RESET</button>
+            <h5>1)  The number of Donuts you have created by clicking, either manually or with an Auto Clicker. </h5>
+            <h5>2) Auto Clickers will automatically click for us every second, so we don't have to click manually.
+            <h5>
+                3) To purchase an auto clicker starting cost is 100 donuts. For each Auto Clicker purchased, 
+                the cost of the next Auto Clicker increases by 10%.
+            </h5>
+            <h5>
+                4) AutoClicker's apply one click per second for every AutoClicker purchased
+                (ex. 1st auto clicker = 1 clicks/second, 2nd auto clicker = 2 clicks/second,
+                3rd auto clicker = 3 clicks/second, etc...)
+            </h5>
+            <h5>5) Each time you purchase an AutoClicker, the cost to purchase will increase
+                by 10 donuts (ex. 1st auto clicker = 100 donuts, 2nd auto clicker = 110 donuts, 
+                3rd auto clicker = 120 donuts, etc...) 
+            </h5>
+            <h5>6) Donut Multipliers increase the number of Donuts made for each click.
+            </h5>
+            <h5>
+                The amount of Donut Multipliers purchased. Donut Multipliers increase the value of a click by 
+                20% for each Donut Multiplier purchased. Donut Multipliers increase the value of both manual and Auto Clicks.
+            </h5>
+            <h5>The number of donuts required to purchase a Donut Multiplier. Starting value is 10 donuts. For each Donut 
+                 purchased, the cost of the next Donut Multiplier increases by 10%.
+            </h5>
+         
+        </div>
+    </main>
+
+    <script src="./src/js/app.js"></script>
+    <script src="./src/js/donutmaker.js"></script>
+</body>
+</html>
