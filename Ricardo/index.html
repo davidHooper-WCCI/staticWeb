@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donut Maker</title>
+
+<link rel="stylesheet" href="./src/css/style.css">
+
+
+</head>
+
+<header>
+    <nav>
+        <button type="button" class="collapsibleNavBar">About</button>
+            <div class="content">
+                <p>The Baking Company by Fred the Baker. After many years of making delicious donuts, 
+                    Fred would like your help in making fresh new goodies for everybody to enjoy.
+                    CLICK on the Donut to make as many goodies as possible, the sky is the limit!</p>
+            </div>
+
+        <button type="button" class="collapsibleNavBar">Inspiration</button>
+            <div class="content">
+                <p>Donut Maker was inspired by the game, <a href="https://orteil.dashnet.org/cookieclicker/" target="_blank">Cookie Clicker</a>.
+                Cookie Clicker is a fun interactive Javascript game appropriate for all ages. The goal of the game is to make cookies by clicking on the cookie. 
+                Once you earn enough cookies, you can buy upgrades to help you make cookies faster. Cookie Clicker allows the user to have a fun experience that appears to be endless.</p>
+            </div>
+
+        <button type="button" class="collapsibleNavBar">Contact</button>
+            <div class="content">
+                <p>Ricardo Gutierrez: Software Developer.
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/ricardo-gutierrez-18a68841/" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/RicardoGutierrez1990" target="_blank">Github</a></li>
+                        <li><a href="mailto:rick_1290@hotmail.com" target="_blank">Email</a></li>
+                    </ul>
+                </p>
+            </div>
+
+            <button id="reset__button" onclick="reset()">Reset</button>
+    </nav>
+</header>
+
+
+<body>
+
+    <main>
+   
+            <div class="container">
+
+                <div class="left">
+                    <div class="auto__clicker__upgrade">
+                        <h3 class="price">Auto Clicker Price</h3>
+                        <h2><span id="auto__clicker__price">100</span> Donuts</h2>
+                            <button id="purchase__auto__clicker">Purchase Auto Clicker</button>
+                        <h3 class="price">Total Purchased:</h3>
+                        <h2><span id="auto__clickers__total">0</span></h2>
+                    </div>
+                </div>     
+
+
+                <div class="center">
+                    <h4><span class="donut_count">0</span> Donuts</h4>
+                    <img src="src/images/istockphoto-479523209-612x612.jpg" name="donutButton" id="sound" alt="jsButton" class="donutButton">
+                </div>  
+                
+
+            
+
+                <div class="right">
+                    <div class="click__multiplier__upgrade">
+                        <h3 class="price">Click Multiplier Price</h3>
+                        <h2><span id="click__multiplier__price">10</span> Donuts</h2>
+                            <button id="purchase__click__multiplier">Purchase Click Multiplier</button>
+                        <h3 class="price">Total Purchased:</h3>
+                        <h2><span id="click__multiplier">0</span></h2>
+                    </div>
+                </div> 
+
+
+
+
+
+
+            </div>
+
+
+
+
+    </main>
+
+    <script src="./src/js/DonutMaker.js"></script>
+    <script type="text/javascript" src="DonutSound.mp3"></script>
+</body>
+
+
+</html>

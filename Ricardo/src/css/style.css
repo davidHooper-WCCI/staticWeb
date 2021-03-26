@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=VT323&display=swap');
+
+*{
+      font-family: 'VT323', monospace;   
+  }
+
+
+nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  background-color: rgb(170, 89, 22);
+  width: 100%;
+  position: relative;
+    
+}
+
+.collapsibleNavBar {
+  background-color: rgb(170, 89, 22);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  width: 20%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  position: relative;
+}
+
+.content {
+       
+  display: none;
+  overflow: hidden;
+  background-color: #d49645;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  margin-bottom: 50px;
+  padding-bottom: 15px;
+} 
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 20px;
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 30px);
+  
+}
+  
+.center{
+  text-align: center;
+  width: 100%;
+  max-height: 100vh;  
+}
+
+.right, .left{
+  text-align: center;
+}
+
+
+h4 {
+  color: rgb(148, 77, 11);
+  text-shadow: 2px 2px 2px white;
+  text-align: center;
+  font-size: 30pt;
+  margin-bottom: 50px;
+  margin-top: 15px;
+      
+}
+
+.donutButton{
+  margin: 20px;
+  border-radius: 70%;
+}
+    
+.donutButton:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+    
+.donutButton:active{
+  transform: scale(1.0);
+}
+  
+.donut_count{
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+
+.price{
+  color: #a84d03;
+  text-shadow: 2px 2px 5px rgb(148, 77, 11);
+  text-align: center;
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: -5px;
+}
+
+
+
+#reset__button{
+  background-color: rgba(106, 108, 228, 0.904);
+  font-size: 20px;
+  color: white;
+}
+
+#reset__button:hover{
+  box-shadow: 0 0 20px gray;
+  border-radius: 10%;
+}
+
+
+#purchase__auto__clicker{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+#purchase__click__multiplier{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
