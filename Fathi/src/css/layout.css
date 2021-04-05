@@ -1,0 +1,55 @@
+header {
+    display: grid;
+    grid-column: 1 / span 3;
+    grid-row-start: 1;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.container {
+    display: grid;
+    margin-top: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10% 1fr 10%;
+    grid-gap: 1rem;
+    grid-row-gap: 1rem;
+}
+.main-donut {
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    justify-items: center;
+    margin-top: 1rem;
+}
+.counter-displays {
+    display: grid;
+    grid-row: 1 / span 1;
+    grid-column-start:3;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.auto-clickers {
+    display: grid;
+    grid-column-start: 4;
+    grid-row: 2 / span 1;
+    justify-items: end;
+    align-items: end;
+    margin-top: 4rem;
+}
+.donut-multis {
+    display: grid;
+    grid-column-start: 5;
+    grid-row-start: 2;
+    justify-items: start;
+    margin-top: 4em;
+}
+
+.restart {
+    display: grid;
+    grid-column-start: 2;
+    grid-row: 2 / span 0;
+    justify-items: end;
+    align-items: end;
+    margin-top: 4rem;
+}

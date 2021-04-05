@@ -1,0 +1,10 @@
+const questions = [
+    "<code>Aute picanha tempor kielbasa pancetta pork loin chuck burgdoggen in duis lorem pork belly frankfurter.  Ut tail id eiusmod adipisicing do, pastrami capicola dolore tempor dolor.  Sint veniam pork belly, picanha ex magna reprehenderit.  Jerky pariatur pig laborum short ribs.</code>",
+    "Leberkas pork loin aliqua ham hock capicola, veniam ut.  Excepteur biltong aliqua ullamco, landjaeger meatloaf ball tip picanha alcatra frankfurter occaecat elit labore.  Adipisicing meatloaf et pork loin tongue.  Venison nostrud aute chuck voluptate dolore cow laborum boudin beef doner.  Ground round meatball veniam kielbasa quis.  Landjaeger cupim ut nisi salami spare ribs pig, turducken non frankfurter sed in buffalo ipsum turkey.",
+    "Ullamco strip steak jerky frankfurter aliquip.  Salami meatball adipisicing pork chop quis sirloin.  Bresaola swine commodo jowl sirloin laboris.  In excepteur consequat, proident cupidatat turducken commodo aliquip dolore laborum landjaeger reprehenderit veniam voluptate nulla.  Veniam porchetta hamburger leberkas.  Spare ribs ut sunt, meatball venison filet mignon dolore shoulder tongue.  Kevin culpa jowl pork loin pork belly in.",
+    "Deserunt kevin minim shank hamburger anim.  Quis fatback pancetta cillum excepteur kielbasa tempor dolore eiusmod incididunt dolor pastrami ut ipsum cupim.  Tempor consectetur cupidatat tail.  Anim prosciutto laborum, kevin pastrami burgdoggen non.  Ball tip biltong pork, anim pig nulla minim prosciutto andouille.",
+    "Rump shankle aliqua ribeye duis.  Tail labore picanha kevin tri-tip rump buffalo laborum dolore quis.  Officia labore eiusmod ut, short ribs spare ribs laboris landjaeger sunt buffalo.  Eiusmod cupidatat meatball, drumstick officia picanha ut est velit laborum aliqua jowl non jerky filet mignon."
+]
+export {
+    questions
+}

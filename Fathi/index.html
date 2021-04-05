@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src\css\style.css" />
+    <link rel="stylesheet" href="src\css\layout.css" />
+    <title>Donut Maker</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="dropdown1">
+          <p>About the Game</p>
+          <span class="dropdown1-content">
+            Do you wish to make virtual donuts and even have them made for you while sleeping?
+            Well this game is for you! <br></br>
+            Just click on the big donut to get started. When You collect enough
+            donuts, you'll unlock the ability to purchase
+            <strong>auto-clickers</strong> and
+            <strong>donut multipliers</strong> with the donuts you've made.<br></br>
+            <strong>Auto-clickers</strong> will make donuts for you each second. One auto-clicker
+            will add one donut per second, two auto-clickers will add 2 donuts
+            per second, etc.<br /><br />
+            <strong>Donut multipliers</strong> will increase the number of donuts made with each
+            click (auto-clicks included). Each multiplier increases the value of
+            a click by 20%.<br></br>
+            Are you ready to make donuts?!
+          </span>
+        </div>
+        <div class="dropdown2">
+          <p>The Inspiration</p>
+          <p class="dropdown2-content">
+            <a href="https://orteil.dashnet.org/cookieclicker/">
+              The Original Cookie Clicker
+            </a>
+          </p>
+        </div>
+        <div class="dropdown3">
+          <p>Contact</p>
+          <p class="dropdown3-content">
+            <a href="https://xilkas.github.io/">See my portfolio </a
+            ><br />
+            <a href="https://github.com/xilkas">Find me on Github</a>
+          </p>
+        </div> 
+
+       
+      </nav>
+    </header>
+
+    <div>
+      <main class="container">
+        <section class="counter-displays">
+          <h1 id="donut-counter">Donuts</h1>
+          <p id="donuts-per-sec">You're making 0 donuts each second</p>
+        </section>
+        <section class="main-donut">
+          <button id="donut-to-click"><img src="src/images/donut3_removed.png" /></button>
+        </section>
+
+        <section class="auto-clickers">
+          <button id="auto-click-button">Buy Auto-Clicker</button><br />
+          <p id="auto-click-display">Auto-Clickers Owned: 0</p>
+          <p id="current-auto-click-cost">
+            Purchase auto-clicker with 100 donuts
+          </p>
+        </section>
+
+        <section class="donut-multis">
+          <button id="multiplier-button">Buy Donut Multiplier</button><br />
+          <p id="multiplier-display">Multipliers Owned</p>
+          <p id="current-multiplier-cost">
+            Buy Donut Multiplier with 10 donuts
+          </p>
+        </section>
+
+        <section class="restart">
+            <button id="reset">Restart The Game!</button><br />
+            Dont feel bad, it happens. Now go ahead and play more!
+            </p>
+          </section>
+
+      </main>
+    </div>
+    <footer>&copy; Fathi Muse 2021</footer>
+    <script src="src\js\app.js" type="module"></script>
+    <script src="src\js\DonutMaker.js" type="module"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 4 Project</title>
+</head>
+<body>
+    <div class="container">
+        <div class="anchor"></div>
+    </div>
+    <script src="/src/app.js"></script>
+</body>
+</html> -->

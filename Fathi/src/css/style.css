@@ -1,0 +1,97 @@
+body {
+    background-color:rgb(252, 244, 252);
+    background-image: url(images/anna-sullivan--tR4fnNJW2A-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Libre Baskerville';
+}
+#donut-to-click {
+    background: none;
+    border-style: none;
+}
+
+#donut-to-click:active {
+    transform: scale(1.1);
+}
+button:focus {
+    outline: none;
+}
+a {
+    text-decoration: none;
+    color: #130a0d;
+}
+nav {
+    font-size: 15px;
+    background-color: rgba(142, 231, 107, 0.7);
+}
+.auto-clickers,
+.donut-multis {
+    background-color:rgba(168, 209, 129, 0.85);
+    padding: 30px;
+    max-height: 300px;
+    max-width: 150px;
+}
+#auto-click-button,
+#multiplier-button,
+#reset {
+    padding: 10px;
+    background-color: rgb(101, 202, 172);
+    border-style: none;
+    font-weight: bold;
+}
+#auto-click-button:hover,
+#multiplier-button:hover,
+#reset:hover {
+    background-color: whitesmoke;
+}
+#auto-click-button:active,
+#multiplier-button:active,
+#reset:active {
+    transform: scale(1.1);
+}
+#auto-click-button:disabled,
+#multiplier-button:disabled {
+    background-color:lightslategray;
+}
+#donut-counter {
+    background-color: rgba(87, 153, 150, 0.7);
+    padding: 5px;
+    margin-bottom: 2px;
+}
+#donuts-per-sec {
+    font-size: 12px;
+    background-color: rgba(127, 180, 184, 0.7);
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.counter-displays {
+    justify-content: center;
+}
+.dropdown1-content,
+.dropdown2-content,
+.dropdown3-content{
+    display: none;
+    position: absolute;
+    width: 300px;
+    margin-top: 0px;
+}
+.dropdown1:hover .dropdown1-content,
+.dropdown2:hover .dropdown2-content,
+.dropdown3:hover .dropdown3-content{
+    display: block;
+    background-color: rgba(218, 247, 244, 0.9);
+    padding: 1rem;
+    font-size: 15px;
+    position:absolute;
+}
+.dropdown3:hover .dropdown3-content{
+    right: 0;
+}
+.click-director {
+    font-size: 20px;
+    font-weight: bold;
+    color:#77567a;
+}
