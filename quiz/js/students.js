@@ -1,22 +1,13 @@
 const students = 
 [
-"Doug",
-"Michele",
-"Jonathon",
-"Keshav",
-"Bishnu",
-"Sarah",
-"Branden",
-"Miguel",
-"Bilen ",
-"Celia ",
-"Ricardo",
-"Connor",
-"Jelanie",
-"Lana",
-"Eduardo",
-"Fathi",
-"Weiwei"
+"Lauren",
+"Jordan",
+"Alan",
+"Cliff",
+"Rickie",
+"Carlos",
+"Julieanne",
+"Davis"
 ]
 export{ 
     students
