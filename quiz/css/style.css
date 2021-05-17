@@ -54,7 +54,7 @@ body {
     background-color: #ecebeb;
     font-size: 2vw;
     flex:1;
-    height: 200px;
+    height: 375px;
     
     
 }
@@ -68,7 +68,7 @@ body {
 }
 .student{
     width: 200px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 .selected{
     background-color: #DB266B;
